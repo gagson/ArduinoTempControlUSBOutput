@@ -64,7 +64,7 @@ void loop( )
     if(temperature >= 30) {
           analogWrite(5,255); //Turn on USB power output
         } 
-        else if (temperature < 25) { 
+        else if (temperature < 25){ 
           analogWrite(5,0); //Turn on USB power output
           }
         
